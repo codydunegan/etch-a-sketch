@@ -10,6 +10,30 @@
     <script src="./script.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <h1>Etch-a-Sketch</h1>
+    </header>
+    <main>
+        <div id="grid"></div>
+        <div id="options">
+            <button id="resetbutton">Reset Grid</button>
+            <h3 class="label">Grid Size:</h3>
+            <div id="gridsize">
+                <input id="gridsizeinput" type="text" name="gridsizeinput" value="16" maxlength="3" />
+                <button id="resizegrid">Resize</button>
+            </div>
+            <h3 class="label">Coloration:</h3>
+            <div id="coloration">
+                <span>Darken</span>
+                <label class="switch">
+                    <input id="rgbtoggle" type="checkbox" /><div></div>
+                </label>
+                <img src="./images/rgb.png" alt="RGB icon">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="https://www.flaticon.com/free-icons/rgb" title="rgb icons">Rgb icons created by Freepik - Flaticon</a>
+    </footer>
 </body>
 </html>
